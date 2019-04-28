@@ -18,6 +18,12 @@
         <module>eureka-server</module>
         <module>service-provider</module>
         <module>service-consumer1</module>
+        <module>service-provider-1</module>
+        <module>service-provider-2</module>
+        <module>service-consumer</module>
+        <module>service-consumer2</module>
+        <module>service-api</module>
+        <module>service-core</module>
     </modules>
 
     <properties>
@@ -46,6 +52,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-actuator</artifactId>
         </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-security</artifactId>-->
+        <!--</dependency>-->
     </dependencies>
 
     <dependencyManagement>
