@@ -24,6 +24,7 @@
         <module>service-consumer2</module>
         <module>service-api</module>
         <module>service-core</module>
+        <module>growing-up</module>
     </modules>
 
     <properties>
@@ -51,6 +52,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
         <!--<dependency>-->
             <!--<groupId>org.springframework.boot</groupId>-->
