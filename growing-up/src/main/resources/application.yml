@@ -1,0 +1,11 @@
+server:
+  port: 7070
+
+spring:
+  application:
+    name: growing-up
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.88.88:8090/eureka/
