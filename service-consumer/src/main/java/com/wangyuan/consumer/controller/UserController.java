@@ -24,6 +24,9 @@ public class UserController {
         User user = userFeignClient.getUser();
         return user;
     }
-
+    @RequestMapping("/testAop")
+    public void testAop() {
+        System.out.println("i am aop");
+    }
 
 }
