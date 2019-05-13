@@ -1,5 +1,8 @@
 package com.wangyuan.growing.thread.day5_13.mysynchronized.deadlock2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @program: serviceparent
  * @description: start
@@ -12,6 +15,7 @@ public class App {
         String lock2 = "锁2";
         new ThreadA(lock1,lock2).start();
         new ThreadB(lock1,lock2).start();
+        List list  = new ArrayList<>();
     }
 
 
