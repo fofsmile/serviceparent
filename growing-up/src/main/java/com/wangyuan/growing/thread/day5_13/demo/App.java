@@ -27,7 +27,7 @@ public class App implements ObjectStreamConstants {
         System.out.println(map.get(null));
         System.out.println(map2.get(null));
         //System.out.println(map3.get(null));
-
+        int[] i = new int[2];
 
     }
 
