@@ -25,6 +25,9 @@ public class Demo4 {
        }
     }
 
+    public static int[] dosome() {
+        return null;
+    }
 
 
     public static void main(String[] args) {
@@ -34,6 +37,11 @@ public class Demo4 {
 //        System.out.println(test(11));
 
         System.out.println(test2(5));
+
+        String a = "abcdefg";
+        System.out.println(a.charAt(1));
+        System.out.println("b".equals(a.charAt(1)));
+
     }
 
 
