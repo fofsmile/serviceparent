@@ -15,7 +15,9 @@ public class App {
 
     public static Map<String,Object> doFilter(List<User> users) {
         Map map =new HashMap<String,Object>();
-        List<User> pingtech = users.stream().filter(user -> user.getName().equals("pingtech") && user.getAge() == 10).collect(Collectors.toList());
+        List<User> pingtech = users.stream()
+                    .filter(user -> user.getName().equals("pingtech") && user.getAge() == 10)
+                    .collect(Collectors.toList());
         users.removeAll(pingtech);
         map.put("pingtech",pingtech);
         map.put("original",users);
